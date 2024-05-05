@@ -31,7 +31,6 @@ def about():
 def post():
     return render_template('post.html')
 
-
 @app.route("/static/contact.html", methods = ['GET','POST'])
 def contact():
     if request.method == 'POST':
